@@ -1,0 +1,31 @@
+# .gitignore para Terraform e Vagrant
+
+# Arquivos e diretórios do Vagrant
+.vagrant/
+Vagrantfile.local
+
+# Diretórios de estado e cache do Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Arquivos de backup do Terraform
+*.backup
+
+# Logs do Terraform
+crash.log
+*.tfvars
+
+# Lockfile do Terraform
+.terraform.lock.hcl
+
+# Planos de execução do Terraform
+*.tfplan
+
+# Arquivos de saída do Vagrant e Terraform
+*.log
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
